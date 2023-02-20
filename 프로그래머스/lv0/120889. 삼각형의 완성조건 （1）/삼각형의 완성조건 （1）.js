@@ -1,0 +1,7 @@
+function solution(sides) {
+    sides = sides.sort((a, b) => { return a - b });
+    console.log(sides);
+    if (sides[0] + sides[1] > sides[2]) {
+        return 1
+    } else { return 2 }
+}
